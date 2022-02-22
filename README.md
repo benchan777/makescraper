@@ -43,7 +43,7 @@ _Complete each task in the order they appear. Use [GitHub Task List](https://hel
 #### Scraping
 
 - [x] **IMPORTANT**: Complete the Web Scraper Workflow worksheet distributed in class.
-- [ ] Create a `struct` to store your data.
+- [x] Create a `struct` to store your data.
 - [x] Refactor the `c.OnHTML` callback on line `16` to use the selector(s) you tested while completing the worksheet.
 - [x] Print the data you scraped to `stdout`.
 
@@ -56,6 +56,8 @@ _Complete each task in the order they appear. Use [GitHub Task List](https://hel
 - [x] Serialize the `struct` you created to JSON. Print the JSON to `stdout` to validate it.
 - [x] Write scraped data to a file named `output.json`.
 - [x] **Add, commit, and push to GitHub**.
+
+## Note: The website updated how they load their data. Menu data is no longer stored in the html. It is dynamically loaded from their api after initial page load now, causing the current method of scraping to not be functional anymroe.
 
 ## Resources
 
